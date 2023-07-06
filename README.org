@@ -1,3 +1,10 @@
 #+title: Edward's Pop_OS Rice
 
 [[sc.png]]
+
++ i3
++ kitty
++ fish shell
++ neofetch
++ polybar
++ rofi
