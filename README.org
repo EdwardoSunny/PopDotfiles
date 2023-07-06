@@ -1,3 +1,3 @@
 #+title: Edward's Pop_OS Rice
 
-./img/sc.png
+[[./img/sc.png]]
