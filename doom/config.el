@@ -15,27 +15,24 @@
 
 ;; Doom exposes five (optional) variables for controlling fonts in Doom:
 ;;
-;; - `doom-font' -- the primary font to use
-;; - `doom-variable-pitch-font' -- a non-monospace font (where applicable)
-;; - `doom-big-font' -- used for `doom-big-font-mode'; use this for
+;; + `doom-font' -- the primary font to use
+;; + `doom-variable-pitch-font' -- a non-monospace font (where applicable)
+;; + `doom-big-font' -- used for `doom-big-font-mode'; use this for
 ;;   presentations or streaming.
-;; - `doom-unicode-font' -- for unicode glyphs
-;; - `doom-serif-font' -- for the `fixed-pitch-serif' face
+;; + `doom-unicode-font' -- for unicode glyphs
+;; + `doom-serif-font' -- for the `fixed-pitch-serif' face
 ;;
 ;; See 'C-h v doom-font' for documentation and more examples of what they
 ;; accept. For example:
 ;;
-;;(setq doom-font (font-spec :family "Fira Code" :size 12 :weight 'semi-light)
-;;      doom-variable-pitch-font (font-spec :family "Fira Sans" :size 13))
-
-(setq doom-font (font-spec :family "Fira Code" :size 18))
+(setq doom-font (font-spec :family "FiraCode Nerd Font" :size 12 :weight 'semi-light)
+     doom-variable-pitch-font (font-spec :family "FiraCode Nerd Font" :size 13))
 ;;
 ;; If you or Emacs can't find your font, use 'M-x describe-font' to look them
 ;; up, `M-x eval-region' to execute elisp code, and 'M-x doom/reload-font' to
 ;; refresh your font settings. If Emacs still can't find your font, it likely
 ;; wasn't installed correctly. Font issues are rarely Doom issues!
 ;; (load-theme #'airline-soda t)
-
 
 ;; There are two ways to load a theme. Both assume the theme is installed and
 ;; available. You can either set `doom-theme' or manually load a theme with the
@@ -118,7 +115,7 @@
 
 ;; vterm dum
 (setq vterm-always-compile-module t)
-(setq projectile-project-search-path '("~/Documents/Code/"))
+;; (setq projectile-project-search-path '("~/Documents/Code/"))
 
 ;; pip install pyright
 ;; sudo apt-get install python3-pylsp
@@ -152,4 +149,4 @@
 
 ;; mini map
 ;; SPC t m
-(setq minimap-window-location 'right)
+;; (setq minimap-window-location 'right)

@@ -91,3 +91,6 @@ end
 
 fish_logo blue cyan green 
 # pfetch
+
+alias vim "nvim"
+alias vi "nvim"
