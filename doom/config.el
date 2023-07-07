@@ -10,8 +10,8 @@
       user-mail-address "john@doe.com")
 
 ;; transparent background
-;; (set-frame-parameter (selected-frame) 'alpha '(90. 50))
-;; (add-to-list 'default-frame-alist '(alpha . (90 . 50)))
+(set-frame-parameter (selected-frame) 'alpha '(90. 50))
+(add-to-list 'default-frame-alist '(alpha . (90 . 50)))
 
 ;; Doom exposes five (optional) variables for controlling fonts in Doom:
 ;;

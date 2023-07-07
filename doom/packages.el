@@ -65,3 +65,4 @@
 (package! airline-themes)
 (package! beacon)
 (package! clippy)
+(package! clang-format)
