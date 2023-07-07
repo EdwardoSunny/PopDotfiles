@@ -66,3 +66,4 @@
 (package! beacon)
 (package! clippy)
 (package! clang-format)
+(package! dark-mint-theme)

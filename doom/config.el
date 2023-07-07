@@ -10,8 +10,8 @@
       user-mail-address "john@doe.com")
 
 ;; transparent background
-(set-frame-parameter (selected-frame) 'alpha '(90. 50))
-(add-to-list 'default-frame-alist '(alpha . (90 . 50)))
+;; (set-frame-parameter (selected-frame) 'alpha '(90. 50))
+;; (add-to-list 'default-frame-alist '(alpha . (90 . 50)))
 
 ;; Doom exposes five (optional) variables for controlling fonts in Doom:
 ;;
@@ -37,9 +37,10 @@
 ;; There are two ways to load a theme. Both assume the theme is installed and
 ;; available. You can either set `doom-theme' or manually load a theme with the
 ;; `load-theme' function. This is the default:
-(load-theme #'doom-dracula t)
+;; (load-theme #'doom-dracula t)
 ;; (load-theme #'inkpot t)
-;; (load-theme #'abyss t)
+;;(load-theme #'abyss t)
+(load-theme #'dark-mint)
 ;; (load-theme #'spacemacs-dark t)
 ;; This determines the style of line numbers in effect. If set to `nil', line
 ;; numbers are disabled. For relative line numbers, set this to `relative'.
