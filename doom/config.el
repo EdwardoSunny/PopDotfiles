@@ -86,7 +86,7 @@
 
 ;; additional package configuration and other settings...
 ;; use fish shell
-(setq-default explicit-shell-file-name "/bin/fish")
+(setq-default explicit-shell-file-name "/bin/sh")
 (setq vterm-shell "/bin/fish")
 ;; set preview org html viewere to xwidget cuz it has more support
 (setq org-preview-html-viewer `xwidget)
