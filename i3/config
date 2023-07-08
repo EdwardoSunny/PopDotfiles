@@ -212,7 +212,7 @@ set $fm DP-1-0
 
 workspace 1 output $fm
 
-exec_always feh --bg-fill $HOME/Pictures/Wallpapers/purplecity.png
+exec_always feh --bg-fill $HOME/Pictures/Wallpapers/purpleHaze.jpg
 # killall polybar when reload bc it makes more instances each time
 
 exec_always $HOME/.config/polybar/launch.sh
