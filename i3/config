@@ -50,6 +50,13 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 exec --no-startup-id nm-applet
 
+# monitors
+exec --no-startup-id xrandr --output HDMI-1-0 --auto --right-of eDP-1
+exec --no-startup-id xrandr --output DP-1-0 --auto --right-of eDP-1
+
+workspace 1 output eDP-1
+workspace 4 output HDMI-1-0
+
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
@@ -207,14 +214,10 @@ bindsym $mod+r mode "resize"
 #mod + m opens emacs
 bindsym $mod+m exec emacsclient -c -a 'emacs'
 
-
-set $fm DP-1-0
-
-workspace 1 output $fm
-
-exec_always feh --bg-fill $HOME/Pictures/Wallpapers/purpleHaze.jpg
 # killall polybar when reload bc it makes more instances each time
 
 exec_always $HOME/.config/polybar/launch.sh
-
 exec_always /usr/bin/compton -b --vsync opengl
+
+
+exec_always feh --bg-fill $HOME/Pictures/Wallpapers/bamboo.png

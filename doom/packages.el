@@ -67,3 +67,6 @@
 (package! clippy)
 (package! clang-format)
 (package! dark-mint-theme)
+(package! lsp-python-ms)
+;; requires on system --> sudo npm -g install js-beautify
+(package! web-beautify)
